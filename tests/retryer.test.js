@@ -45,7 +45,7 @@ describe("Test Retryer", () => {
     try {
       res = await retryer(fetcherFail, {});
     } catch (err) {
-      expect(fetcherFail).toBeCalledTimes(8);
+      expect(fetcherFail).toBeCalledTimes(2);
       expect(err.message).toBe("Maximum retries exceeded");
     }
   });

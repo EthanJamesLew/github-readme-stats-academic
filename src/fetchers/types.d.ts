@@ -25,6 +25,18 @@ export type StatsData = {
   rank: { level: string; score: number };
 };
 
+export type AcademicStatsData = {
+  name: string;
+  totalPRs: number;
+  totalCommits: number;
+  totalIssues: number;
+  totalStars: number;
+  contributedTo: number;
+  rank: { level: string; score: number };
+  hIndex: number;
+  i10Index: number;
+};
+
 export type Lang = {
   name: string;
   color: string;
