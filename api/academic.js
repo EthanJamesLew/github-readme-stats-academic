@@ -7,7 +7,7 @@ import {
   parseBoolean,
   renderError,
 } from "../src/common/utils.js";
-import { fetchStats } from "../src/fetchers/stats-fetcher.js";
+import { fetchAcademicStats } from "../src/fetchers/academic-fetcher.js";
 import { isLocaleAvailable } from "../src/translations.js";
 
 export default async (req, res) => {
@@ -50,7 +50,7 @@ export default async (req, res) => {
   }
 
   try {
-    const stats = await fetchStats(
+    const stats = await fetchAcademicStats(
       username,
       parseBoolean(count_private),
       parseBoolean(include_all_commits),

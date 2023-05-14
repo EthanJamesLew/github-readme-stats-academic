@@ -10,7 +10,7 @@ import {
   measureText,
 } from "../common/utils.js";
 import { getStyles } from "../getStyles.js";
-import { statCardLocales } from "../translations.js";
+import { academicStatCardLocales } from "../translations.js";
 
 const CARD_MIN_WIDTH = 287;
 const CARD_DEFAULT_WIDTH = 287;
@@ -74,7 +74,7 @@ const createTextNode = ({
 /**
  * Renders the stats card.
  *
- * @param {Partial<import('../fetchers/types').StatsData>} stats The stats data.
+ * @param {Partial<import('../fetchers/types').AcademicStatsData>} stats The stats data.
  * @param {Partial<import("./types").StatCardOptions>} options The card options.
  * @returns {string} The stats card SVG object.
  */
@@ -87,6 +87,8 @@ const renderAcademicCard = (stats = {}, options = { hide: [] }) => {
     totalPRs,
     contributedTo,
     rank,
+    hIndex,
+    i10Index,
   } = stats;
   const {
     hide = [],
@@ -132,20 +134,20 @@ const renderAcademicCard = (stats = {}, options = { hide: [] }) => {
     : "s";
   const i18n = new I18n({
     locale,
-    translations: statCardLocales({ name, apostrophe }),
+    translations: academicStatCardLocales({ name, apostrophe }),
   });
 
   // Meta data for creating text nodes with createTextNode function
   const STATS = {
     stars: {
       icon: icons.star,
-      label: i18n.t("statcard.totalstars"),
+      label: i18n.t("academiccard.totalstars"),
       value: totalStars,
       id: "stars",
     },
     commits: {
       icon: icons.commits,
-      label: `${i18n.t("statcard.commits")}${
+      label: `${i18n.t("academiccard.commits")}${
         include_all_commits ? "" : ` (${new Date().getFullYear()})`
       }`,
       value: totalCommits,
@@ -153,21 +155,33 @@ const renderAcademicCard = (stats = {}, options = { hide: [] }) => {
     },
     prs: {
       icon: icons.prs,
-      label: i18n.t("statcard.prs"),
+      label: i18n.t("academiccard.prs"),
       value: totalPRs,
       id: "prs",
     },
     issues: {
       icon: icons.issues,
-      label: i18n.t("statcard.issues"),
+      label: i18n.t("academiccard.issues"),
       value: totalIssues,
       id: "issues",
     },
     contribs: {
       icon: icons.contribs,
-      label: i18n.t("statcard.contribs") + " (last year)",
+      label: i18n.t("academiccard.contribs") + " (last year)",
       value: contributedTo,
       id: "contribs",
+    },
+    hIndex: {
+      icon: icons.contribs,
+      label: i18n.t("academiccard.hindex"),
+      value: hIndex,
+      id: "hIndex",
+    },
+    i10Index: {
+      icon: icons.contribs,
+      label: i18n.t("academiccard.i10index"),
+      value: i10Index,
+      id: "i10Index",
     },
   };
 
@@ -222,7 +236,9 @@ const renderAcademicCard = (stats = {}, options = { hide: [] }) => {
   });
 
   const calculateTextWidth = () => {
-    return measureText(custom_title ? custom_title : i18n.t("statcard.title"));
+    return measureText(
+      custom_title ? custom_title : i18n.t("academiccard.title"),
+    );
   };
 
   /*
@@ -248,7 +264,7 @@ const renderAcademicCard = (stats = {}, options = { hide: [] }) => {
 
   const card = new Card({
     customTitle: custom_title,
-    defaultTitle: i18n.t("statcard.title"),
+    defaultTitle: i18n.t("academiccard.title"),
     width,
     height,
     border_radius,
@@ -306,7 +322,7 @@ const renderAcademicCard = (stats = {}, options = { hide: [] }) => {
     .filter((key) => !hide.includes(key))
     .map((key) => {
       if (key === "commits") {
-        return `${i18n.t("statcard.commits")} ${
+        return `${i18n.t("academiccard.commits")} ${
           include_all_commits ? "" : `in ${new Date().getFullYear()}`
         } : ${totalStars}`;
       }
