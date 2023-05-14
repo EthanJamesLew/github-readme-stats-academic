@@ -139,38 +139,6 @@ const renderAcademicCard = (stats = {}, options = { hide: [] }) => {
 
   // Meta data for creating text nodes with createTextNode function
   const STATS = {
-    stars: {
-      icon: icons.star,
-      label: i18n.t("academiccard.totalstars"),
-      value: totalStars,
-      id: "stars",
-    },
-    commits: {
-      icon: icons.commits,
-      label: `${i18n.t("academiccard.commits")}${
-        include_all_commits ? "" : ` (${new Date().getFullYear()})`
-      }`,
-      value: totalCommits,
-      id: "commits",
-    },
-    prs: {
-      icon: icons.prs,
-      label: i18n.t("academiccard.prs"),
-      value: totalPRs,
-      id: "prs",
-    },
-    issues: {
-      icon: icons.issues,
-      label: i18n.t("academiccard.issues"),
-      value: totalIssues,
-      id: "issues",
-    },
-    contribs: {
-      icon: icons.contribs,
-      label: i18n.t("academiccard.contribs") + " (last year)",
-      value: contributedTo,
-      id: "contribs",
-    },
     hIndex: {
       icon: icons.contribs,
       label: i18n.t("academiccard.hindex"),
@@ -182,6 +150,18 @@ const renderAcademicCard = (stats = {}, options = { hide: [] }) => {
       label: i18n.t("academiccard.i10index"),
       value: i10Index,
       id: "i10Index",
+    },
+    stars: {
+      icon: icons.star,
+      label: i18n.t("academiccard.totalstars"),
+      value: totalStars,
+      id: "stars",
+    },
+    contribs: {
+      icon: icons.contribs,
+      label: i18n.t("academiccard.contribs") + " (last year)",
+      value: contributedTo,
+      id: "contribs",
     },
   };
 

@@ -128,6 +128,25 @@ const academicStatsFetcher = async (username) => {
 };
 
 /**
+ * Calculate the h-index from a list of repositories.
+ */
+const calculateHIndex = (repositories) => {
+  const stars = repositories
+    .filter((repo) => repo.stargazers.totalCount !== 0)
+    .map((repo) => repo.stargazers.totalCount)
+    .sort((a, b) => b - a);
+  let hIndex = 0;
+  for (let i = 0; i < stars.length; i++) {
+    if (stars[i] >= i + 1) {
+      hIndex++;
+    } else {
+      break;
+    }
+  }
+  return hIndex;
+};
+
+/**
  * Fetch all the commits for all the repositories of a given username.
  *
  * @param {*} username GitHub username.
@@ -250,15 +269,6 @@ const fetchAcademicStats = async (
   stats.totalPRs = user.pullRequests.totalCount;
   stats.contributedTo = user.repositoriesContributedTo.totalCount;
 
-  // Retrieve stars while filtering out repositories to be hidden
-  stats.totalStars = user.repositories.nodes
-    .filter((data) => {
-      return !repoToHide[data.name];
-    })
-    .reduce((prev, curr) => {
-      return prev + curr.stargazers.totalCount;
-    }, 0);
-
   stats.rank = calculateRank({
     totalCommits: stats.totalCommits,
     totalRepos: user.repositories.totalCount,
@@ -268,6 +278,27 @@ const fetchAcademicStats = async (
     prs: stats.totalPRs,
     issues: stats.totalIssues,
   });
+
+  // Retrieve stars while filtering out repositories to be hidden
+  stats.totalStars = user.repositories.nodes
+    .filter((data) => {
+      return !repoToHide[data.name];
+    })
+    .reduce((prev, curr) => {
+      return prev + curr.stargazers.totalCount;
+    }, 0);
+
+  // i-10 index: repos with over ten stars
+  stats.i10Index = user.repositories.nodes
+    .filter((data) => {
+      return !repoToHide[data.name];
+    })
+    .reduce((prev, curr) => {
+      return prev + (curr.stargazers.totalCount >= 10 ? 1 : 0);
+    }, 0);
+
+  // calculate the h-index
+  stats.hIndex = calculateHIndex(user.repositories.nodes);
 
   return stats;
 };
