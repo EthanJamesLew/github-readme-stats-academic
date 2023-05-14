@@ -4,17 +4,17 @@
  <p align="center">पहुनु होस् द्य्नामिचल्ली गेनेरटे गितहब  रेअडमी सतत  </p>
 </p>
   <p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/actions">
+      <img alt="Tests Passing" src="https://github.com/EthanJamesLew/github-readme-stats-academic/workflows/Test/badge.svg" />
     </a>
-    <a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
-      <img src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/EthanJamesLew/github-readme-stats-academic">
+      <img src="https://codecov.io/gh/EthanJamesLew/github-readme-stats-academic/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/EthanJamesLew/github-readme-stats-academic?color=0088ff" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/EthanJamesLew/github-readme-stats-academic?color=0088ff" />
     </a>
     <br />
     <br />
@@ -29,9 +29,9 @@
   <p align="center">
     <a href="#demo">डेमो हेर्नुहोस्</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">रिपोर्ट बग</a>
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues/new/choose">रिपोर्ट बग</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">अनुरोध सुविधा</a>
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues/new/choose">अनुरोध सुविधा</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -76,7 +76,7 @@ Copy-paste this into your markdown content, and that's it. Simple!
 Change the `?username=` value to your GitHub's username.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 _Note: Ranks are calculated based on user's stats, see [src/calculateRank.js](./src/calculateRank.js)_
@@ -208,16 +208,16 @@ GitHub फाल्तु पिनले तपाइँलाए GitHub री
 Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### डेमो 
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 Use [show_owner](#customization) variable to include the repo's owner username
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 # टोप भाषा कार्ड 
 
@@ -231,7 +231,7 @@ _NOTE: टोप भाषाहरुले आफ्नो सिपलाए 
 Endpoint: `api/top-langs?username=anuraghazra`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### Exclude individual repositories
@@ -239,7 +239,7 @@ Endpoint: `api/top-langs?username=anuraghazra`
 You can use `?exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### कुनै भाषा चुपौनॆ तरिका 
@@ -247,7 +247,7 @@ You can use `?exclude_repo=repo1,repo2` parameter to exclude individual reposito
 You can use `?hide=language1,language2` parameter to hide individual languages.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### धेरॆ भाषाहरु हेर्नको लागि 
@@ -255,7 +255,7 @@ You can use `?hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 10 (inclusive), and the default is 5.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### कम्प्याक्ट भाषा कार्ड ळयोउत 
@@ -263,30 +263,30 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 तपाइले `&layout=compact` ओप्तिओनपनि  कार्ड देसिग्न को लागि परहयोग गर्न सक्नु हुन्क्ष 
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### डेमो 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 - Compact layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 # वाका समय वीक स्तट्स 
 
 Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 ```md
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ###  डेमो
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&hide_progress=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&hide_progress=true)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 ---
 
@@ -332,11 +332,11 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 
 - टोप भाषा 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 - वक समय कार्ड 
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 ---
 
@@ -345,7 +345,7 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
 तपाइले इमेजलाई सइद बय सइद  अलीग्न गर्न सक्नु हुदैन तेसैले येसरी गर्नु होस् :
 
 ```html
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/EthanJamesLew/github-readme-stats-academic">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
@@ -361,9 +361,9 @@ Change the `?username=` value to your [Wakatime](https://wakatime.com) username.
  `https://github-readme-stats.vercel.app/api` प्रोजेक्ट मा रेत्  लिमिट हुन सक्क्ष । तर तपाइले आफ्नै वेर्चेल सेर्वेर मा होस्ट गर्नु बाको छ बने यो प्रोब्लेम हुदैन।  
  होस्ट गर्ने तरिका यस पकारका षन ।
 
-NOTE: Since [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
+NOTE: Since [#58](https://github.com/EthanJamesLew/github-readme-stats-academic/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 <details>
  <summary><b> Guide on setting up Vercel  🔨 </b></summary>

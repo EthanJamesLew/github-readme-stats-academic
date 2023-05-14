@@ -5,7 +5,7 @@ on:
 
 jobs:
   closeOldThemePrs:
-    if: github.repository == 'anuraghazra/github-readme-stats'
+    if: github.repository == 'EthanJamesLew/github-readme-stats-academic'
     name: Close stale 'invalid' theme PRs
     runs-on: ubuntu-latest
     strategy:

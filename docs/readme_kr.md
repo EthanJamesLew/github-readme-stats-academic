@@ -4,17 +4,17 @@
  <p align="center">동적으로 생성되는 GitHub 사용량 통계를 여러분의 README 에 추가해보세요!</p>
 </p>
   <p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/actions">
+      <img alt="Tests Passing" src="https://github.com/EthanJamesLew/github-readme-stats-academic/workflows/Test/badge.svg" />
     </a>
-    <a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
-      <img src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/EthanJamesLew/github-readme-stats-academic">
+      <img src="https://codecov.io/gh/EthanJamesLew/github-readme-stats-academic/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/EthanJamesLew/github-readme-stats-academic?color=0088ff" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/EthanJamesLew/github-readme-stats-academic?color=0088ff" />
     </a>
     <br />
     <br />
@@ -29,9 +29,9 @@
   <p align="center">
     <a href="#미리보기">미리보기 확인</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">버그 제보하기</a>
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues/new/choose">버그 제보하기</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">기능 추가 요청하기</a>
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues/new/choose">기능 추가 요청하기</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français </a>
@@ -77,7 +77,7 @@
 `?username=` 속성의 값을 GitHub 계정의 사용자 명(닉네임)으로 바꿔주세요.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 _참고:_
@@ -224,16 +224,16 @@ GitHub 저장소 여분 핀을 이용하면, 6개 이상의 저장소 핀을 여
 엔드 포인트: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### 미리보기
 
-[![GitHub 저장소 핀 카드](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub 저장소 핀 카드](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 [show_owner](#커스터마이징) 속성을 통해 저장소 소유자의 닉네임 표시 여부를 설정할 수 있어요.
 
-[![GitHub 저장소 핀 카드](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
+[![GitHub 저장소 핀 카드](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 # 언어 사용량 통계
 
@@ -250,7 +250,7 @@ _참고:
 엔드 포인트: `api/top-langs?username=anuraghazra`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### 통계에서 제외할 저장소 지정하기
@@ -258,7 +258,7 @@ _참고:
 `?exclude_repo=repo1,repo2` 속성을 통해 특정 저장소를 제외할 수 있어요.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### 통계에서 특정 언어 제외하기
@@ -266,7 +266,7 @@ _참고:
 `?hide=language1,language2` 속성을 통해 특정 언어를 제외할 수 있어요.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### 표시할 언어 수 지정하기
@@ -274,7 +274,7 @@ _참고:
 `&langs_count=` 속성을 통해 카드에 표시할 언어의 수를 지정할 수 있어요. (1-10 사이, 기본 값 : 5)
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### 컴택트한 카드 레이아웃 설정하기
@@ -282,34 +282,34 @@ _참고:
 `&layout=compact` 속성을 통해 카드의 디자인을 변경할 수 있어요.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### 미리보기
 
-[![언어 사용량 통계](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![언어 사용량 통계](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 - 컴팩트한 레이아웃
 
-[![언어 사용량 통계](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![언어 사용량 통계](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 # Wakatime 주간 통계
 
 `?username=` 속성의 값을 [Wakatime](https://wakatime.com) 계정의 사용자 명(닉네임)으로 바꿔주세요.
 
 ```md
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### 미리보기
 
-[![Harlok 님의 wakatime 통계](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok 님의 wakatime 통계](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
-[![Harlok 님의 wakatime 통계](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&hide_progress=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok 님의 wakatime 통계](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&hide_progress=true)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 - 컴팩트한 레이아웃
 
-[![Harlok 님의 wakatime 통계](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok 님의 wakatime 통계](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&layout=compact)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 ---
 
@@ -355,11 +355,11 @@ _참고:
 
 - 언어 사용량 통계
 
-[![언어 사용량 통계](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![언어 사용량 통계](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 - Wakatime 카드
 
-[![Harlok 님의 Wakatime 카드](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok 님의 Wakatime 카드](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 ---
 
@@ -370,7 +370,7 @@ _참고:
 그럴땐, 이렇게 해보세요!
 
 ```html
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/EthanJamesLew/github-readme-stats-academic">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
@@ -389,9 +389,9 @@ GitHub API 가 시간 당 요청 개수를 5,000회로 제한한 뒤로,
 
 아래의 버튼을 이용해 직접 배포해보세요!
 
-참고: [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) 풀 리퀘스트 이후로, 저희는 5,000 개 이상의 요청을 처리할 수 있게 됐어요. 더이상 서버 다운에 대한 걱정은 노놉! :D
+참고: [#58](https://github.com/EthanJamesLew/github-readme-stats-academic/pull/58) 풀 리퀘스트 이후로, 저희는 5,000 개 이상의 요청을 처리할 수 있게 됐어요. 더이상 서버 다운에 대한 걱정은 노놉! :D
 
-[![Vercel 에 배포하기](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
+[![Vercel 에 배포하기](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 <details>
  <summary><b> 🔨 Vercel 세팅 가이드!   </b></summary>

@@ -4,7 +4,7 @@ on:
 
 jobs:
   triage:
-    if: github.repository == 'anuraghazra/github-readme-stats'
+    if: github.repository == 'EthanJamesLew/github-readme-stats-academic'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/labeler@v4

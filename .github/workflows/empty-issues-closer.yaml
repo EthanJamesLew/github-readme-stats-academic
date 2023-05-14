@@ -8,7 +8,7 @@ on:
 
 jobs:
   closeEmptyIssuesAndTemplates:
-    if: github.repository == 'anuraghazra/github-readme-stats'
+    if: github.repository == 'EthanJamesLew/github-readme-stats-academic'
     name: Close empty issues
     runs-on: ubuntu-latest
     steps:
