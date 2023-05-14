@@ -5,7 +5,7 @@ on:
 
 jobs:
   showAndLabelTopIssues:
-    if: github.repository == 'anuraghazra/github-readme-stats'
+    if: github.repository == 'EthanJamesLew/github-readme-stats-academic'
     name: Update top issues Dashboard.
     runs-on: ubuntu-latest
     steps:

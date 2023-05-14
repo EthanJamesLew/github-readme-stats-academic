@@ -5,17 +5,17 @@
 </p>
 
   <p align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/actions">
+      <img alt="Tests Passing" src="https://github.com/EthanJamesLew/github-readme-stats-academic/workflows/Test/badge.svg" />
     </a>
-    <a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
-      <img src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
+    <a href="https://codecov.io/gh/EthanJamesLew/github-readme-stats-academic">
+      <img src="https://codecov.io/gh/EthanJamesLew/github-readme-stats-academic/branch/master/graph/badge.svg" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/EthanJamesLew/github-readme-stats-academic?color=0088ff" />
     </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/EthanJamesLew/github-readme-stats-academic?color=0088ff" />
     </a>
     <br />
     <br />
@@ -30,9 +30,9 @@
   <p align="center">
     <a href="#ejemplo">Ver un ejemplo</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Reportar un bug</a>
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues/new/choose">Reportar un bug</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new/choose">Solicitar una mejora</a>
+    <a href="https://github.com/EthanJamesLew/github-readme-stats-academic/issues/new/choose">Solicitar una mejora</a>
   </p>
   <p align="center">
     <a href="/docs/readme_fr.md">Français</a>
@@ -77,7 +77,7 @@ Copia y pega esto en el contenido de tu README.md y listo. ¡Simple!
 Cambia el valor de `?username=` al nombre de tu usuario de GitHub.
 
 ```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 _Nota: Los rangos disponibles son S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%) y B+ (todos). Los valores se calculan utilizando la [función de distribución acumulada](https://es.wikipedia.org/wiki/Funci%C3%B3n_de_distribuci%C3%B3n) utilizando commits, contribuciones, issues, estrellas, pull request, seguidores y repositorios propios. Puedes investigar más sobre la implementación en [src/calculateRank.js](../src/calculateRank.js)._
@@ -210,16 +210,16 @@ Copia y pegua este código en tu Readme y cambia los enlaces.
 Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### Ejemplo
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 Utiliza la variable [show_owner](#customización) para incluir el nombre de usuario del propietario del repositorio.
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 # Tarjeta de Lenguajes Principales
 
@@ -234,7 +234,7 @@ Copia y pegua este código en tu Readme y cambia los enlaces.
 Endpoint: `api/top-langs?username=anuraghazra`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### Excluir repositorios individualmente
@@ -242,7 +242,7 @@ Endpoint: `api/top-langs?username=anuraghazra`
 Puedes usar el parámetro `?exclude_repo=repo1,repo2` para ocultar repositorios individualmente.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&exclude_repo=github-readme-stats,anuraghazra.github.io)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### Ocultar lenguajes individualmente
@@ -250,7 +250,7 @@ Puedes usar el parámetro `?exclude_repo=repo1,repo2` para ocultar repositorios 
 Puedes usar el parámetro `?hide=language1,language2` para ocultar lenguajes individualmente.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide=javascript,html)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### Mostrar más lenguajes
@@ -258,7 +258,7 @@ Puedes usar el parámetro `?hide=language1,language2` para ocultar lenguajes ind
 Puedes usar el paramétro `&langs_count=` para incrementar o decrementar el número de lenguajes mostrados en la tarjeta. Los valores admitidos son los números enteros entre 1 y 10 (inclusive), y el valor por defecto es 5.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&langs_count=8)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### Diseño Compacto de Tarjeta de Lenguaje
@@ -266,34 +266,34 @@ Puedes usar el paramétro `&langs_count=` para incrementar o decrementar el núm
 Puedes usar la opción `& layout = compact` para cambiar el diseño de la tarjeta.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### Ejemplo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 - Diseño compacto
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 # Estadísticas de la semana de Wakatime
 
 cambia el valor del parámetro `?username=` a tu username en [Wakatime](https://wakatime.com).
 
 ```md
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 ```
 
 ### Ejemplo
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&hide_progress=true)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&hide_progress=true)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 - Diseño compacto
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok&layout=compact)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 ---
 
@@ -339,11 +339,11 @@ Escoja cualquiera de los [temas por defecto](#themes)
 
 - Lenguajes Top
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 - Tarjeta de Wakatime
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/anuraghazra/github-readme-stats)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Harlok)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 ---
 
@@ -352,7 +352,7 @@ Escoja cualquiera de los [temas por defecto](#themes)
 Por lo general, no podrás acomodar las imágenes una al lado de la otra. Para hacerlo, puede usar este enfoque:
 
 ```html
-<a href="https://github.com/anuraghazra/github-readme-stats">
+<a href="https://github.com/EthanJamesLew/github-readme-stats-academic">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
@@ -366,9 +366,9 @@ Por lo general, no podrás acomodar las imágenes una al lado de la otra. Para h
 
 Desde que la API de GitHub permite solo 5k peticiones por hora, es posible que mi `https://github-readme-stats.vercel.app/api` pueda llegar al límite. Si lo alojas en tu propio servidor de Vercel, no tendrás que preocuparte de nada. ¡Clickea en el botón "Deploy" para comenzar!
 
-NOTA: Debido a [#58](https://github.com/anuraghazra/github-readme-stats/pull/58) podríamos manejar más de 5k peticiones sin tener ningún problema con el downtime :D
+NOTA: Debido a [#58](https://github.com/EthanJamesLew/github-readme-stats-academic/pull/58) podríamos manejar más de 5k peticiones sin tener ningún problema con el downtime :D
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/anuraghazra/github-readme-stats)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 <details>
  <summary>Guía para comenzar en Vercel</summary>
