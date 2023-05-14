@@ -356,6 +356,19 @@ Use [show_owner](#customization) variable to include the repo's owner username
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&show_owner=true)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
+# Academic Card
+
+The academic card shows the user's statistics using common academic publications metrics, the [h-index](https://en.wikipedia.org/wiki/H-index) and the [i10-index](https://en.wikipedia.org/wiki/Author-level_metrics#i-10-index).
+### Usage
+
+Copy-paste this code into your readme and change the links.
+
+Endpoint: `api/academic?username=EthanJamesLew`
+
+```md
+[![GitHub Impact](https://github-readme-stats-academic.vercel.app/api/academic?username=EthanJamesLew)](https://github.com/EthanJamesLew/github-readme-stats-academic)
+```
+
 # Top Languages Card
 
 The top languages card shows a GitHub user's most frequently used top language.
@@ -537,6 +550,10 @@ Choose from any of the [default themes](#themes)
 -   Customizing repo card
 
 ![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=anuraghazra&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+
+- Academic
+
+[![EthanJamesLew's GitHub stats](https://github-readme-stats-academic.vercel.app/api/academic?username=EthanJamesLew)](https://github.com/EthanJamesLew/github-readme-stats-academic)
 
 -   Top languages
 
